@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -126,4 +126,77 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+
+.main{
+  
+  border: 2px solid darkgoldenrod;
+  width: 1500px;
+  height: 750px;
+  background-color: aquamarine;}
+  .center{
+       border: 2px solid red;
+       width: 30%;
+       height: 60%;
+       background-color: bisque;
+       margin-left: 450px;
+       margin-top: 150px;
+       border-radius: 10px;
+  
+}
+.heading{
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: aqua;
+  margin-left: 110px;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+/* .btn{
+  border: 4px solid brown;
+  width: 200px;
+  height: 150px;
+  display: flex;
+ margin-left: 150px;
+ margin-top: 50px;
+ flex-direction: ;
+} */
+.increment{
+  width: 150px;
+  height: 50px;
+  
+  font-size: 20px;
+  margin-left: 30px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+.decrement{
+
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 15px;
+
+}
+.decrement:hover{
+
+      background-color: aqua;
+
+}
+.increment:hover{
+
+      background-color: aqua;
+
+}
+.app{
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  
 }
